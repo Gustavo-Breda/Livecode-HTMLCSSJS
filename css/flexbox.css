@@ -1,0 +1,54 @@
+/* --------------------------- flexbox index -------------------------------- */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-perfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+.timeline-novo-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-post-perfil {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.foto-perfil-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

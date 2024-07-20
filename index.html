@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Zoetrope</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="status-bar">
+            <img src="./images/status_bar_time.svg" alt="">
+            
+            <div>            
+                <img src="./images/status_bar_connection.svg" alt="">
+                <img src="./images/status_bar_wifi.svg" alt="">
+                <img src="./images/status_bar_battery.svg" alt="">
+            </div>
+        </div>
+        <div class="header-perfil">
+            <button class="header-perfil-foto"><img src="./images/usuario_foto.jpg" alt=""></button>
+            <img src="./images/logo.svg" alt="">
+            <button><img src="./images/magnifier.svg" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <div class="timeline-novo-post">
+            <textarea class="timeline-novo-post-texto" placeholder="No que você está pensando"></textarea>
+
+            <label id="label-btn-1" for="btn-1"><img src="./images/btn_send_image.svg" alt=""></label>
+            <input id="btn-1" type="file" accept="image/gif, image/png, image/jpg, image/jpeg"></input>
+
+            <button id="btn-2"><img src="./images/btn_send.svg" alt=""></button>
+        </div>
+        <section class="timeline">
+            <div class="timeline-post">
+                <div class="timeline-post-perfil">
+                    <button><img class="foto-perfil-post" src="./images/post_perfil_1.png"></button>
+                    <div class="timeline-post-perfil-infos">
+                        <p>Tris Merigold</p>
+                        <p class="perfil-info-data">25/10/2021</p>
+                    </div>
+                </div>
+                <div class="timeline-post-texto">
+                    <p>Em um mundo com histórias incrivelmente ricas, The Witcher conta sobre Geralt de Rívia, um bruxo solitário que procura seu lugar no mundo. Série muito boa!!!</p>
+                </div>
+                <div class="timeline-post-imagem">
+                    <img src="./images/post_imagem_1.png">
+                </div>
+                <div class="timeline-post-footer">
+                    <button><img src="./images/post_like.svg" alt=""></button>
+                    <button><img src="./images/post_comment.svg" alt=""></button>
+                    <button><img src="./images/post_share.svg" alt=""></button>
+                    <button><img src="./images/post_more.svg" alt=""></button>
+                </div>
+            </div>
+
+            <div class="timeline-post">
+                <div class="timeline-post-perfil">
+                    <button><img class="foto-perfil-post" src="./images/post_perfil_2.png"></button>
+                    <div class="timeline-post-perfil-infos">
+                        <p>Martha Nielsen</p>
+                        <p class="perfil-info-data">27/10/2021</p>
+                    </div>
+                </div>
+                <div class="timeline-post-texto">
+                    <p>Tive que reassistir A Origem duas vezes para realmente entender o filme! E, após assistir vários anos depois, ainda parece que estou vendo pela primeira vez. FIlme incrível!!</p>
+                </div>
+                <div class="timeline-post-footer">
+                    <button><img src="./images/post_like.svg" alt=""></button>
+                    <button><img src="./images/post_comment.svg" alt=""></button>
+                    <button><img src="./images/post_share.svg" alt=""></button>
+                    <button><img src="./images/post_more.svg" alt=""></button>
+                </div>
+            </div>
+
+            <div class="timeline-post">
+                <div class="timeline-post-perfil">
+                    <button><img class="foto-perfil-post" src="./images/post_perfil_3.png"></button>
+                    <div class="timeline-post-perfil-infos">
+                        <p>Ariadne</p>
+                        <p class="perfil-info-data">28/10/2021</p>
+                    </div>
+                </div>
+                <div class="timeline-post-texto">
+                    <p>Dark tem um visão histórica distinta e intrigante envolvendo angústias e cinismo desencadeados por desaparecimentos não resolvidos e corrupção pública.</p>
+                </div>
+                <div class="timeline-post-footer">
+                    <button><img src="./images/post_like.svg" alt=""></button>
+                    <button><img src="./images/post_comment.svg" alt=""></button>
+                    <button><img src="./images/post_share.svg" alt=""></button>
+                    <button><img src="./images/post_more.svg" alt=""></button>
+                </div>
+            </div>
+
+            <div class="timeline-post">
+                <div class="timeline-post-perfil">
+                    <button><img class="foto-perfil-post" src="./images/post_perfil_4.png"></button>
+                    <div class="timeline-post-perfil-infos">
+                        <p>Tyler Locke</p>
+                        <p class="perfil-info-data">28/10/2021</p>
+                    </div>
+                </div>
+                <div class="timeline-post-texto">
+                    <p>Finalmente uma história mágica/sobrenatural única. A atuação é boa, a história é divertida e a filmagem é de qualidade!! vale a pena assistir a adaptação de Locke & Key.</p>
+                </div>
+                <div class="timeline-post-imagem">
+                    <img src="./images/post_imagem_2.png">
+                </div>
+                <div class="timeline-post-footer">
+                    <button><img src="./images/post_like.svg" alt=""></button>
+                    <button><img src="./images/post_comment.svg" alt=""></button>
+                    <button><img src="./images/post_share.svg" alt=""></button>
+                    <button><img src="./images/post_more.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <button><img src="./images/footer_home.svg" alt=""></button>
+        <button><img src="./images/footer_new_friends.svg" alt=""></button>
+        <button><img src="./images/footer_comments.svg" alt=""></button>
+        <button><img src="./images/footer_notification.svg" alt=""></button>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

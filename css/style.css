@@ -1,0 +1,115 @@
+@import url(flexbox.css);
+
+/* -------------------------------------------------------------------------- */
+
+:root {
+    --var-main-cor-branca: #FFFFFF;
+    --var-main-cor-cinza: #EEEEEE;
+
+    --var-main-font-family: "Roboto", sans-serif;
+    --var-main-font-size: 1rem;
+    --var-main-line-height: 22.4px;
+}
+
+body {
+    background-color: var(--var-main-cor-cinza);
+    font-family: var(--var-main-font-family);
+    font-size: var(--var-main-font-size);
+    line-height: var(--var-main-line-height);
+}
+
+/* ----------------------------- CSS index ---------------------------------- */
+
+.header {
+    background-color: var(--var-main-cor-branca);
+    padding:10px;
+}
+
+.header-perfil-foto img{
+    max-width: 3rem;
+    max-height: 3rem;
+
+    border-radius: 50%;
+}
+
+.timeline-novo-post {
+    margin: 1rem auto;
+    width: 343px;
+}
+
+.timeline {
+    margin: 1rem auto 75px auto;
+    width: 343px;
+}
+
+.timeline-novo-post-texto {
+    padding: 5px 3px 0 5px;
+    width:70%;
+    color:black;
+    resize: none;
+}
+
+.timeline-post {
+    background-color: var(--var-main-cor-branca);
+    width: 343px;
+    border-radius: 5px;
+}
+
+.timeline-post-perfil {
+    padding: 8px 8px 2px 8px;
+}
+
+.timeline-post-perfil-infos {
+    margin-top: 5px;
+}
+
+.foto-perfil-post {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+
+    border-radius: 50%;
+}
+
+.perfil-info-data {
+    opacity: 80%;
+}
+
+.timeline-post-texto {
+    padding: 2px 8px 8px 8px;
+}
+
+.timeline-post-texto p{
+    opacity: 80%;
+}
+
+.timeline-post-imagem img{
+    max-width: 343px;
+}
+
+.timeline-post-footer {
+    padding: 10px;
+}
+
+.footer {
+    background-color: var(--var-main-cor-branca);
+
+    position:fixed;
+    width:100%;
+    bottom:0;
+
+    padding:10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+#label-btn-1 {
+    margin: 5px 0 0 5px;
+}
+
+#btn-1 {
+    width: 0;
+}
